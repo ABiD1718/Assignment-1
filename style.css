@@ -1,5 +1,39 @@
+/*<!-- ==================  Basic Part  =======================-->*/
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/*<!-- ==================  Banner Section  =======================-->*/
+#banner {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.9;
+    padding: 13%;
+}
+
+#banner h1 {
+    color: rgb(132, 7, 248);
+    font-size: 6rem;
+    text-align: center;
+}
+
+#banner p {
+    font-size: 1.9rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#banner button {
+    height: 75px;
+    width: 175px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, tomato, orange);
+    border: none;
+    font-size: 20px;
+    font-weight: 510;
+    margin-left: 45%;
 }
 
 .our-activities {
