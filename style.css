@@ -176,6 +176,7 @@ body {
 /*<!-- ==================  Update Section  =======================-->*/
 .update-section {
     margin-top: 5%;
+    text-align: center;
 }
 
 .update-section h1 {
@@ -194,6 +195,66 @@ body {
     font-weight: 700;
 }
 
-#contract-part {
+.contract-part {
+    text-align: center;
+    background-color: cornsilk;
+    padding: 90px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-right: 25%;
     margin-left: 25%;
+}
+
+#email {
+    width: 300px;
+    height: 5px;
+    font-size: 1rem;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gainsboro;
+    font-weight: 600;
+}
+
+#subscribe {
+    padding: 14px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-left: 2px;
+    background-color: rgb(252, 2, 2);
+    color: white;
+    font-weight: 600;
+}
+
+/*<!-- ==================  Footer Section  =======================-->*/
+.footer {
+    margin-top: 10%;
+    margin-bottom: 2px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer h1 {
+    color: orangered;
+    font-family: 'great vives', cursive;
+}
+
+.footer p {
+    color: yellow;
+}
+
+#copyright {
+    color: orange;
+}
+
+#designation {
+    color: lightcoral;
+}
+
+#last {
+    color: aqua;
 }
