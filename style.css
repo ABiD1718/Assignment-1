@@ -92,6 +92,46 @@ body {
     margin-top: 10px;
 }
 
+#donate-plan {
+    text-align: center;
+    margin-top: 7%;
+}
+
+#donate-plan h1 {
+    font-size: 3.5rem;
+}
+
+#heading-line {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: gray;
+}
+
 .our-activities {
     display: flex;
+    margin-top: 10%;
+    /*margin-bottom: 10%;
+    margin-right: 7%;*/
+    margin-left: 5%;
+    width: 100%;
+
+}
+
+.sub-part {
+    padding: 50px;
+    margin: 5px;
+    padding: 100px;
+    border: 2px solid black;
+}
+
+#light-coral {
+    background-color: lightcoral;
+}
+
+#lite-cyan {
+    background-color: lightgoldenrodyellow;
+}
+
+#lite-purple {
+    background-color: lightcyan;
 }
